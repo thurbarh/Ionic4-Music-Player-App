@@ -1,5 +1,7 @@
 {
   "name": "Muzic",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }

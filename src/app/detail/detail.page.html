@@ -1,0 +1,39 @@
+
+<ion-content>
+  <div class="ion-padding wrapper">
+  <div class="header">
+   <ion-row>
+      <ion-item lines="none">
+        <ion-icon name="arrow-round-back" slot="start" (click)="dismiss()"></ion-icon>
+        <ion-icon name="menu" slot="end"></ion-icon>
+      </ion-item>
+   </ion-row>
+  </div>
+  <div class="logo">
+    <ion-row>
+      <ion-avatar class="img" >
+        <ion-img src="http://40.media.tumblr.com/01e34630ad842bb50ceb8360389c705a/tumblr_npdponGd2J1qkbpm3o1_500.png"></ion-img>
+      </ion-avatar>
+     </ion-row>
+  </div>
+   <div class="controls">
+    <div class="ion-padding"> 
+      <p>Now Playing</p>
+      <div class="div_summary">
+         <ion-text class="start">00:00</ion-text>
+         <ion-text class="end">00:00</ion-text>
+       </div>
+     <div>
+       <ion-range min="0" max="20" step="1"> </ion-range>
+     </div>
+     </div>
+      <ion-item lines="none">
+      <div class="btn_group">
+       <ion-icon name="rewind" class="btn-play" button></ion-icon>
+       <ion-icon name="play" button  class="btn-play"></ion-icon>
+       <ion-icon name="fastforward" button class="btn-play"></ion-icon>
+     </div>
+      </ion-item>
+   </div>
+  </div>
+</ion-content>
